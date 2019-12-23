@@ -24,7 +24,7 @@ let urlDB;
 
 // } else {
 
-urlDB = 'mongodb+srv://lina:b0v2DFVUmTe94x8z@cluster0-rly55.mongodb.net/cafe';
+urlDB = process.env.MONGO_URL;
 // }
 
 process.env.NODE_ENV = urlDB;
